@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="ClickLinksInstruction" type="System.String">
+    <value>Перейдите по ссылкам в таблице для просмотра и изменения параметров приложения.</value>
+  </data>
+  <data name="CreateUser" type="System.String">
+    <value>Создать пользователя</value>
+  </data>
+  <data name="CreateAccessRules" type="System.String">
+    <value>Создание правил доступа</value>
+  </data>
+  <data name="CreateOrManageRoles" type="System.String">
+    <value>Создание ролей и управление ими</value>
+  </data>
+  <data name="CreateRoles" type="System.String">
+    <value>Создание ролей</value>
+  </data>
+  <data name="DisableRoles" type="System.String">
+    <value>Отключение ролей</value>
+  </data>
+  <data name="Explanation" type="System.String">
+    <value>Средство администрирования веб-узла можно использовать для управления всеми параметрами безопасности приложения. Вы можете задать пользователей и пароли (для проверки подлинности), создать роли (группы пользователей) и разрешения (правила для управления доступом к частям вашего приложения).&lt;br&gt;&lt;br&gt;По умолчанию информация о пользователях хранится в базе данных Microsoft SQL Server Express в папке Data вашего веб-узла. Если вы хотите хранить информацию о пользователях в другой базе данных, перейдите на вкладку "Поставщик" и выберите другого поставщика.</value>
+  </data>
+  <data name="ExistingRoles" type="System.String">
+    <value>Существующие роли: </value>
+  </data>
+  <data name="ExistingUsers" type="System.String">
+    <value>Существующие пользователи: </value>
+  </data>
+  <data name="ProblemWithDataStore" type="System.String">
+    <value>Проблема с выбранным хранилищем данных</value>
+  </data>
+  <data name="RolesNotEnabled" type="System.String">
+    <value>Не включены роли</value>
+  </data>  
+  <data name="EnableRoles" type="System.String">
+    <value>Включить роли</value>
+  </data>  
+  <data name="ManageRoles" type="System.String">
+    <value>Управление ролями</value>
+  </data>
+  <data name="ManageUsers" type="System.String">
+    <value>Управление пользователями</value>
+  </data>            
+  <data name="ManageAccessRules" type="System.String">
+    <value>Управление правилами доступа</value>
+  </data>
+  <data name="SecurityLink" type="System.String">
+    <value>Используйте мастер настройки безопасности для пошаговой установки параметров безопасности.</value>
+  </data>                            
+  <data name="SecurityManagement" type="System.String">
+    <value>Управление безопасностью</value>
+  </data>  
+  <data name="SecurityManagementForSite" type="System.String">
+    <value>Управление безопасностью для сайта: &amp;lt; {0} &amp;gt; </value>
+  </data>  
+  <data name="SelectAuth" type="System.String">
+    <value>Выбор типа проверки подлинности</value>
+  </data>  
+  <data name="Users" type="System.String">
+    <value>Пользователи</value>
+  </data>  
+  <data name="WindowsAuthExplanation" type="System.String">
+    <value>Текущий тип проверки подлинности - &lt;b&gt;Windows&lt;/b&gt;, поэтому возможность управления пользователями из данного средства отключена.</value>
+  </data>  
+  <data name="Roles" type="System.String">
+    <value>Роли</value>
+  </data>  
+  <data name="AccessRules" type="System.String">
+    <value>Правила доступа</value>
+  </data>  
+</root>

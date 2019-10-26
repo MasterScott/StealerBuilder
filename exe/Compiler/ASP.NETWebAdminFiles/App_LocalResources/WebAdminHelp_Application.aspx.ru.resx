@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Title00" type="System.String">
+    <value>Вкладка "Приложение" Web Site Administration Tool</value>
+  </data>
+  <data name="WebSiteAdministrationToolApplicationTab01" type="System.String">
+    <value>Вкладка "Приложение" Web Site Administration Tool</value>
+  </data>
+  <data name="WebSiteAdministrationToolApplicationTab02" type="System.String">
+    <value>Вкладка &lt;span class=UI&gt;Приложение&lt;/span&gt; средства Web Site Administration Tool предназначена для управления часто используемыми параметрами веб-приложения и узла.</value>
+  </data>
+  <data name="Introduction01" type="System.String">
+    <value>Вступление</value>
+  </data>
+  <data name="Introduction02" type="System.String">
+    <value>Вкладка &lt;span class=UI&gt;Приложение&lt;/span&gt; предназначена для управления:</value>
+  </data>
+  <data name="Introduction03" type="System.String">
+    <value>Параметрами приложения (пары имя-значение). </value>
+  </data>
+  <data name="Introduction04" type="System.String">
+    <value>Параметрами приложения являются пары имя-значение, которые представляют настраиваемые текстовые значения веб-приложения. Параметры приложения применяются для хранения пользовательской информации о конфигурации приложения, например, пути к файлам, URL-адреса веб-служб XML, часто используемого текста или любых данных, которые нужно хранить в одном месте и легко изменять.</value>
+  </data>
+  <data name="Introduction05" type="System.String">
+    <value>Внимание!   Параметры приложения хранятся в файле конфигурации открытым текстом. Это значит, что при работе с параметрами приложения необходимо применять соответствующие меры безопасности. Не храните конфиденциальные сведения, например, имена пользователей, пароли или параметры подключения к базе данных в параметрах приложения.</value>
+  </data>
+  <data name="Introduction06" type="System.String">
+    <value>Параметрами SMTP.</value>
+  </data>
+  <data name="Introduction07" type="System.String">
+    <value>Если веб-узлу требуется возможность отправлять электронные письма (например, чтобы отправлять пользователям пароли), необходимо указать сервер SMTP, с которым будет работать узел.</value>
+  </data>
+  <data name="Introduction08" type="System.String">
+    <value>Состоянием приложения.</value>
+  </data>
+  <data name="Introduction09" type="System.String">
+    <value>Приложение можно перевести в автономный режим (отключить) на время обслуживания или подключения новой базы данных Microsoft SQL Server Express.</value>
+  </data>
+  <data name="Introduction10" type="System.String">
+    <value>Отладкой и трассировкой.</value>
+  </data>
+  <data name="Introduction11" type="System.String">
+    <value>Отладка и трассировка позволяют выявить и устранить проблемы в веб-приложении, они рассчитаны главным образом на применение во время разработки. При включении отладки страницы веб-сайта будут компилироваться со сведениями, позволяющими отладчику платформы .NET Framework или Microsoft Visual Studio выполнять код по шагам. При включении трассировки страницы будут формировать сведения об отдельных веб-запросах, заголовках HTTP, отправляемых в этих запросах, состоянии элементов управления на страницах и другие сведения по обработке страниц. </value>
+  </data>
+  <data name="ConfiguringApplicationSettings01" type="System.String">
+    <value>Настройкой параметров приложения</value>
+  </data>
+  <data name="ConfiguringApplicationSettings02" type="System.String">
+    <value>При создании параметра приложения необходимо указать его имя и значение. Благодаря этому к параметру можно обращаться в приложении при помощи свойства &lt;span class=LanguageKeyword&gt;AppSettings&lt;/span&gt; класса &lt;span class=LanguageKeyword&gt;ConfigurationSettings&lt;/span&gt;. Например, если создать параметр AppName и присвоить ему имя приложения, его можно использовать для обработки страницы так, как показано в следующем примере кода.</value>
+  </data>
+  <data name="ConfiguringApplicationSettings03" type="System.String">
+    <value>[Visual Basic]</value>
+  </data>
+  <data name="ConfiguringApplicationSettings04" type="System.String">
+    <value></value>
+  </data>
+  <data name="ConfiguringApplicationSettings05" type="System.String">
+    <value>[C#]</value>
+  </data>
+  <data name="TakingApplicationsOfflineandOnline01" type="System.String">
+    <value>Переводом приложений в автономный и оперативный режимы</value>
+  </data>
+  <data name="TakingApplicationsOfflineandOnline02" type="System.String">
+    <value>Во время работ по обслуживанию может понадобиться перевести веб-узел в автономный режим. Для этого процесс, отвечающий за работу веб-узла, завершается и узел временно прекращает обслуживание страниц. Страницы и другие файлы можно редактировать, не беспокоясь о том, что они могут быть запрошены в процессе редактирования, и возможном возникновении ошибки. Кроме того, приложение удобно переводить в автономный режим при работе с SQL Server Standard, когда нужно заменить или добавить файл .mdf, который требуется приложению. Если приложение запущено, его нельзя подключить к другому файлу .mdf.</value>
+  </data>
+  <data name="TakingApplicationsOfflineandOnline03" type="System.String">
+    <value>Закончив редактирование, добавление или замену файлов .mdf, приложения можно перевести обратно в оперативный режим.</value>
+  </data>
+  <data name="ConfiguringSMTPSettings01" type="System.String">
+    <value>Настройкой параметров SMTP</value>
+  </data>
+  <data name="ConfiguringSMTPSettings02" type="System.String">
+    <value>Некоторым функциям веб-сайта требуется, чтобы приложение имело возможность отправки электронных писем. Для отправки электронной почты приложению требуется доступ к серверу SMTP, который направляет электронные письма адресату. </value>
+  </data>
+  <data name="ConfiguringSMTPSettings03" type="System.String">
+    <value>Виртуальный сервер SMTP входит в состав служб IIS, хотя и не устанавливается автоматически. Если вам требуется возможность отправки электронной почты с собственного компьютера, можно установить сервер SMTP, используя компонент &lt;span class=UI&gt;Установка и удаление программ&lt;/span&gt; на Панели управления Microsoft Windows. Сервер SMTP доступен в виде компонента Windows, входящего в состав IIS. После установки сервера SMTP IIS его можно настроить при помощи консоли Internet Information Services Management Console. Подробные сведения об установке виртуального сервера SMTP IIS см. в базе знаний Knowledge Base (KB).</value>
+  </data>
+  <data name="ConfiguringSMTPSettings04" type="System.String">
+    <value>Примечание:   Если на вашем компьютере установлен сервер SMTP, необходимо принять меры предосторожности, чтобы ваш сервер SMTP не был уязвимым и не мог использоваться в качестве сервера для рассылки рекламной информации (спама). Более подробные сведения о защите виртуального сервера SMTP IIS можно найти на веб-узле Microsoft.com.</value>
+  </data>
+  <data name="ConfiguringSMTPSettings05" type="System.String">
+    <value>Если вы не хотите устанавливать сервер SMTP IIS, или ваше приложение выполняется на другом компьютере, обратитесь к сетевому администратору или администратору веб-сервера за информацией о параметрах конфигурации сервера SMTP.</value>
+  </data>
+  <data name="ConfiguringSMTPSettings06" type="System.String">
+    <value>Параметры SMTP описаны в следующей таблице.</value>
+  </data>
+  <data name="ConfiguringSMTPSettings07" type="System.String">
+    <value>Параметр
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings08" type="System.String">
+    <value>Описание
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings09" type="System.String">
+    <value>
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings10" type="System.String">
+    <value>Имя сервера
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings11" type="System.String">
+    <value>Имя вашего сервера SMTP. Значение по умолчанию - &lt;span class=code&gt;localhost&lt;/span&gt;, это означает, что ASP.NET будет использовать на локальном компьютере SMTP. Обычно это виртуальный SMTP-сервер по умолчанию. В противном случае - имя сервера SMTP, доступного в данной сети.
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings12" type="System.String">
+    <value>
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings13" type="System.String">
+    <value>Порт сервера
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings14" type="System.String">
+    <value>Порт сервера SMTP. По умолчанию — 25.
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings15" type="System.String">
+    <value>
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings16" type="System.String">
+    <value>От
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings17" type="System.String">
+    <value>Адрес электронной почты, появляющийся в поле &lt;span class=UI&gt;От:&lt;/span&gt; заголовок сообщений электронной почты, отправленной через веб-сайт.
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings18" type="System.String">
+    <value>
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings19" type="System.String">
+    <value>Проверка подлинности
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings20" type="System.String">
+    <value>Тип проверки подлинности, которую использует сервер SMTP, если таковая имеется. При использовании &lt;span class=UI&gt;Обычной проверки подлинности&lt;/span&gt; необходимо указать имя и пароль учетной записи, которой разрешено отправлять электронные письма через сервер.</value>
+  </data>
+  <data name="ConfiguringSMTPSettings21" type="System.String">
+    <value>Имя пользователя и пароль для &lt;span class=UI&gt;обычной проверки подлинности&lt;/span&gt; содержатся в открытом тексте в файле Web.config.
+</value>
+  </data>
+  <data name="ConfiguringSMTPSettings22" type="System.String">
+    <value>
+</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing01" type="System.String">
+    <value>Настройка отладки и трассировки</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing02" type="System.String">
+    <value>Для изменения параметров отладки и трассировки необходимо иметь права администратора на компьютере, где выполняется веб-приложение.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing03" type="System.String">
+    <value>Для управления функциями отладки и трассировки щелкните &lt;span class=UI&gt;Настройка отладки и трассировки&lt;/span&gt; и настройте следующие параметры:</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing04" type="System.String">
+    <value>Включить отладку</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing05" type="System.String">
+    <value>Выберите этот переключатель, чтобы разрешить отладку всех страниц веб-сайта. </value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing06" type="System.String">
+    <value>Записывать данные трассировки</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing07" type="System.String">
+    <value>Выберите этот переключатель, чтобы разрешить трассировку всех страниц веб-узла. Если поставить этот флажок, станут доступны остальные параметры на странице.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing08" type="System.String">
+    <value>Когда включена запись данных трассировки, можно настроить следующие возможности: </value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing09" type="System.String">
+    <value>Выводить данные трассировки на отдельных страницах</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing10" type="System.String">
+    <value>Выберите этот переключатель, чтобы данные трассировки отображались в нижней части веб-страниц вашего узла. Если этот флажок не установлен, данные не отображаются, но по-прежнему записываются. Для просмотра данных трассировки можно запросить страницу Trace.axd веб-узла, которая выступает в роли средства просмотра этих данных.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing11" type="System.String">
+    <value>Только локальные запросы</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing12" type="System.String">
+    <value>Выберите этот переключатель, чтобы просматривать данные трассировки только для запросов локального веб-сервера (localhost).</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing13" type="System.String">
+    <value>Все запросы</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing14" type="System.String">
+    <value>Выберите этот переключатель, чтобы просматривать данные трассировки с любого компьютера.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing15" type="System.String">
+    <value>В разделе &lt;span class=UI&gt;Выбор порядка сортировки результатов трассировки&lt;/span&gt; выберите способ отображения данных трассировки:</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing16" type="System.String">
+    <value>По времени</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing17" type="System.String">
+    <value>Выберите этот переключатель, чтобы просматривать данные трассировки в порядке их записи.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing18" type="System.String">
+    <value>По категориям</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing19" type="System.String">
+    <value>Выберите этот переключатель, чтобы просматривать данные трассировки в алфавитном порядке по определенным пользователем категориям.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing20" type="System.String">
+    <value>Количество запросов трассировки для кэширования:</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing21" type="System.String">
+    <value>Введите количество запросов трассировки, которые должны храниться на сервере. кэшируемые данные можно просмотреть с помощью специального средства просмотра (http://server/application/trace.axd). Значение по умолчанию — 10. Если переключатель &lt;span class=UI&gt;Последние результаты трассировки&lt;/span&gt; не выбран, и достигнут этот предел, трассировка автоматически отключается.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing22" type="System.String">
+    <value>В разделе &lt;span class=UI&gt;Выбор результатов трассировки для кэширования&lt;/span&gt; выберите способ отображения данных трассировки:</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing23" type="System.String">
+    <value>Последние результаты трассировки</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing24" type="System.String">
+    <value>Выберите этот переключатель, чтобы отображать последние данные трассировки и отбрасывать старые данные, если их количество превышает порог, заданный параметром &lt;span class=UI&gt;Количество запросов трассировки для кэширования&lt;/span&gt;.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing25" type="System.String">
+    <value>Самые старые результаты трассировки</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing26" type="System.String">
+    <value>Выберите этот переключатель, чтобы отображать данные трассировки, количество которых не превышает порог, заданный параметром &lt;span class=UI&gt;Количество запросов трассировки для кэширования&lt;/span&gt;.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing27" type="System.String">
+    <value>Примечание.   Закончив устранение неполадок веб-узла, отключите отладку и трассировку, чтобы добиться максимальной производительности веб-приложения.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing28" type="System.String">
+    <value>Примечание безопасности При включении трассировки страницы информация трассировки может появиться в любом браузере, который делает запрос страницы сервера. Так как при трассировке отображаются конфиденциальные сведения, такие как значения серверных переменных, это может представлять угрозу для безопасности. Перед публикацией веб-приложения на рабочем сервере отключите трассировку для данной страницы. </value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing29" type="System.String">
+    <value>Чтобы настроить собственную страницу ошибки для веб-узла, щелкните &lt;span class=UI&gt;Определение стандартной страницы ошибок&lt;/span&gt; и настройте следующие параметры:</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing30" type="System.String">
+    <value>Использование стандартного сообщения об ошибке</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing31" type="System.String">
+    <value>Включите этот переключатель, если хотите использовать страницу ошибки по умолчанию.</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing32" type="System.String">
+    <value>Выберите адрес URL для использования в качестве стандартной страницы ошибок</value>
+  </data>
+  <data name="ConfiguringDebuggingandTracing33" type="System.String">
+    <value>Отметьте этот флажок, если хотите использовать собственную страницу ошибки, и выберите нужную страницу.</value>
+  </data>
+  <data name="BehindtheScenes01" type="System.String">
+    <value>За кулисами</value>
+  </data>
+  <data name="BehindtheScenes02" type="System.String">
+    <value>Вкладка &lt;span class=UI&gt;Приложение&lt;/span&gt; предоставляет простой веб-интерфейс для управления параметрами настройки, хранящимися в файле web.config для приложения. </value>
+  </data>
+  <data name="ApplicationSettings01" type="System.String">
+    <value>Параметры приложения</value>
+  </data>
+  <data name="ApplicationSettings02" type="System.String">
+    <value>Параметры, управляемые через раздел &lt;span class=UI&gt;Параметры приложения&lt;/span&gt; вкладки &lt;span class=UI&gt;Приложение&lt;/span&gt; находятся в разделе &amp;lt;appSettings&amp;gt; файла Web.config веб-приложения. Это предопределенный раздел параметров конфигурации, созданный .NET Framework. Выделенные строки следующего файла конфигурации созданы после создания параметра &lt;span class=code&gt;ApplicationName&lt;/span&gt; при помощи средства Web Site Administration Tool.</value>
+  </data>
+  <data name="TakingApplicationsOfflineandOnline01" type="System.String">
+    <value>Перевод приложений в автономный и оперативный режимы</value>
+  </data>
+  <data name="TakingApplicationsOfflineandOnline02" type="System.String">
+    <value>Параметр автономного режима находится в разделе &amp;lt;httpRuntime&amp;gt; файла Web.config веб-узла. Выделенные строки следующего кода созданы после перевода приложения в автономный режим при помощи средства Web Site Administration Tool.</value>
+  </data>
+  <data name="TakingApplicationsOfflineandOnline03" type="System.String">
+    <value>Если параметр &lt;span class=LanguageKeyword&gt;httpRuntime&lt;/span&gt; отключен, в ASP.NET объект System.AppDomain будет создаваться в приложении только при получении запроса. В результате запустить веб-приложение не удастся. </value>
+  </data>
+  <data name="SMTPSettings01" type="System.String">
+    <value>Параметры SMTP</value>
+  </data>
+  <data name="SMTPSettings02" type="System.String">
+    <value>Параметры, управляемые через функцию &lt;span class=UI&gt;Параметры SMTP&lt;/span&gt; вкладки &lt;span class=UI&gt;Приложение&lt;/span&gt; находятся в разделе &amp;lt;mailSettings&amp;gt; файла Web.config веб-узла, который является дочерним узлом элемента &amp;lt;system.net&amp;gt; (не путайте с элементом &amp;lt;system.web&amp;gt;). Выделенные строки следующего кода созданы после настройки параметров SMTP при помощи средства Web Site Administration Tool.</value>
+  </data>
+  <data name="DebuggingandTracing01" type="System.String">
+    <value>Отладка и трассировка</value>
+  </data>
+  <data name="DebuggingandTracing02" type="System.String">
+    <value>Параметры, управляемые через раздел &lt;span class=UI&gt;Отладка и трассировка&lt;/span&gt; вкладки &lt;span class=UI&gt;Приложение&lt;/span&gt; находятся в разделах &amp;lt;trace&amp;gt;, &amp;lt;compilation&amp;gt; и &amp;lt;customErrors&amp;gt; файла Web.config. Ниже представлен пример файла конфигурации, созданного средством Web Site Administration Tool, разрешающий трассировку и отладку, а так же устанавливающий пользовательскую страницу ошибки по умолчанию.</value>
+  </data>
+  <data name="DebuggingandTracing03" type="System.String">
+    <value>В этом примере, отладка и трассировка разрешены, трассировка отображается на страницах, которые запрашиваются только у Web-сервера, результаты трассировки хранятся по категориям, и 10 последних результатов трассировки кэшируются для отображения. Страницей ошибки по умолчанию является myErrorPage.aspx.</value>
+  </data>
+  <data name="MoreInformation01" type="System.String">
+    <value>Подробнее</value>
+  </data>
+  <data name="MoreInformation02" type="System.String">
+    <value>Дополнительные сведения см. в справочнике классов .NET Framework и схеме параметров ASP.NET Settings Schema:</value>
+  </data>
+  <data name="MoreInformation03" type="System.String">
+    <value>System.Configuration.ConfigurationSettings</value>
+  </data>
+  <data name="MoreInformation04" type="System.String">
+    <value>compilation Element (ASP.NET Settings Schema)</value>
+  </data>
+  <data name="MoreInformation05" type="System.String">
+    <value>customErrors Element (ASP.NET Settings Schema)</value>
+  </data>
+  <data name="MoreInformation06" type="System.String">
+    <value>trace Element (ASP.NET Settings Schema)</value>
+  </data>
+  <data name="SeeAlso01" type="System.String">
+    <value>См. также</value>
+  </data>
+  <data name="SeeAlso02" type="System.String">
+    <value>Обзор Web Site Administration Tool</value>
+  </data>
+  <data name="SeeAlso03" type="System.String">
+    <value>Вкладка "Безопасность" Web Site Administration Tool</value>
+  </data>
+  <data name="SeeAlso04" type="System.String">
+    <value>Вкладка "Поставщик" Web Site Administration Tool</value>
+  </data>
+  <data name="SeeAlso05" type="System.String">
+    <value>Внутренние компоненты Web Site Administration Tool</value>
+  </data>
+</root>

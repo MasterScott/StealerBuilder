@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Title00" type="System.String">
+    <value>Вкладка "Внутренние компоненты" Web Site Administration Tool</value>
+  </data>
+  <data name="WebSiteAdministrationToolInternals01" type="System.String">
+    <value>Внутренние компоненты Web Site Administration Tool</value>
+  </data>
+  <data name="WebSiteAdministrationToolInternals02" type="System.String">
+    <value>Содержит описание внутренних компонентов Web Site Administration Tool.</value>
+  </data>
+  <data name="Introduction01" type="System.String">
+    <value>Вступление</value>
+  </data>
+  <data name="Introduction02" type="System.String">
+    <value>Средство Web Site Administration Tool предоставляет веб-интерфейс для управления параметрами конфигурации отдельных веб-узлов. Параметры конфигурации хранятся в файле Web.config, который находится в корневой папке веб-узла. При изменении конфигурации по умолчанию Web Site Administration Tool вносит изменения в файл Web.config. Если файл Web.config отсутствует, при выполнении изменений Web Site Administration Tool создает новый файл.</value>
+  </data>
+  <data name="Introduction03" type="System.String">
+    <value>Кроме создания и изменения файлов Web.config, Web Site Administration Tool позволяет настроить базы данных поставщиков узла, которые поддерживают определенные функции.</value>
+  </data>
+  <data name="Introduction04" type="System.String">
+    <value>При первом запуске средство Web Site Administration Tool создает стандартный файл Web.config для настраиваемого приложения. Кроме того, Web Site Administration Tool создает стандартного поставщика базы данных узла, который представляет собой локальную базу данных в папке App_Data веб-узла.</value>
+  </data>
+  <data name=".NETConfiguration01" type="System.String">
+    <value>Конфигурация .NET</value>
+  </data>
+  <data name=".NETConfiguration02" type="System.String">
+    <value>Параметры конфигурации для приложений на базе Microsoft .NET Framework хранятся в файлах с расширением .config в формате XML, которые находятся в папке приложения. </value>
+  </data>
+  <data name=".NETConfiguration03" type="System.String">
+    <value>Корневым элементом файла конфигурации является &lt;span class=LanguageKeyword&gt;configuration&lt;/span&gt;. Элемент &lt;span class=LanguageKeyword&gt;configuration&lt;/span&gt; содержит отдельные элементы, в которых хранятся параметры, предназначенные для различных целей. Например, если создать параметры приложения, они будут храниться в элементе &lt;span class=LanguageKeyword&gt;appSettings&lt;/span&gt;, который является дочерним узлом элемента &lt;span class=LanguageKeyword&gt;configuration&lt;/span&gt;.</value>
+  </data>
+  <data name=".NETConfiguration04" type="System.String">
+    <value>Среди файлов конфигурации существует иерархия. Параметры конфигурации отдельных веб-узлов наследуются от вышестоящих в иерархии файлов конфигурации. Корневым элементом иерархии системы конфигурации является файл конфигурации компьютера, где хранятся параметры, которые распространяются на всю систему и все приложения, которые в ней выполняются. Параметры корневого файла конфигурации нельзя изменить при помощи Web Site Administration Tool; это может сделать только администратор веб-сервера.</value>
+  </data>
+  <data name=".NETConfiguration05" type="System.String">
+    <value>Корневая папка веб-сервера (например, \inetpub\wwwroot) может содержать файл Web.config, содержащий параметры, которые распространяются на все веб-узлы данного сервера. На уровне приложения может использоваться другой файл Web.config, определяющий параметры данного приложения. Кроме того, в подкаталогах приложения может храниться еще один файл Web.config, определяющий параметры, распространяющиеся на ресурсы, содержащиеся в этих подкаталогах.</value>
+  </data>
+  <data name=".NETConfiguration06" type="System.String">
+    <value>Средство Web Site Administration Tool позволяет управлять параметрами, которые хранятся в файле Web.config отдельного приложения и его подкаталогов. Средство Web Site Administration Tool отображает параметры, наследуемые от вышестоящих в иерархии файлов конфигурации, если они применимы. Если определение унаследованного параметра запрещает переопределение, в Web Site Administration Tool параметр отображается затемненным.</value>
+  </data>
+  <data name="ConfigurationAPI01" type="System.String">
+    <value>Configuration API</value>
+  </data>
+  <data name="ConfigurationAPI02" type="System.String">
+    <value>Средство Web Site Administration Tool представляет собой веб-узел ASP.NET версии 2.0, написанный на C#, который широко использует пространство имен System.Configuration. Подробности см. в ASP.NET Configuration API.</value>
+  </data>
+  <data name="ConfigurationFileStructure01" type="System.String">
+    <value>Структура файла конфигурации</value>
+  </data>
+  <data name="ConfigurationFileStructure02" type="System.String">
+    <value>Подробные сведения о том, каким образом Web Site Administration Tool изменяет содержимое файла конфигурации, соответствующее различным функциям, см. в ASP.NET Configuration.</value>
+  </data>
+  <data name="SeeAlso01" type="System.String">
+    <value>См. также</value>
+  </data>
+  <data name="SeeAlso02" type="System.String">
+    <value>Обзор Web Site Administration Tool</value>
+  </data>
+  <data name="SeeAlso03" type="System.String">
+    <value>Вкладка "Безопасность" Web Site Administration Tool</value>
+  </data>
+  <data name="SeeAlso04" type="System.String">
+    <value>Вкладка "Приложение" Web Site Administration Tool</value>
+  </data>
+  <data name="SeeAlso05" type="System.String">
+    <value>Вкладка "Поставщик" Web Site Administration Tool</value>
+  </data>
+</root>
