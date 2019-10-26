@@ -1,0 +1,10 @@
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\bin\Debug\StealBuilder-By-FormatC.exe.config
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\bin\Debug\StealBuilder-By-FormatC.exe
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\bin\Debug\StealBuilder-By-FormatC.pdb
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\obj\Debug\StealBuilder_By_FormatC.Form1.resources
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\obj\Debug\StealBuilder_By_FormatC.Properties.Resources.resources
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\obj\Debug\StealBuilder-By-FormatC.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\obj\Debug\StealBuilder-By-FormatC.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\obj\Debug\StealBuilder-By-FormatC.exe
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\obj\Debug\StealBuilder-By-FormatC.pdb
+C:\Users\Asus\source\repos\StealBuilder-By-FormatC\StealBuilder-By-FormatC\obj\Debug\StealBuilder-By-FormatC.csprojAssemblyReference.cache
